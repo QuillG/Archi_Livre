@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "API_Livre.Controllers.BooksController",
+    "Method": "Index",
+    "RelativePath": "Books",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Livre.Controllers.BooksController",
+    "Method": "Details",
+    "RelativePath": "Books",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Livre.Controllers.BooksController",
+    "Method": "Create",
+    "RelativePath": "Books",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Livre.Controllers.BooksController",
+    "Method": "Create",
+    "RelativePath": "Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Livre.Controllers.BooksController",
+    "Method": "Edit",
+    "RelativePath": "Books",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Livre.Controllers.BooksController",
+    "Method": "Edit",
+    "RelativePath": "Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Livre.Controllers.BooksController",
+    "Method": "Delete",
+    "RelativePath": "Books",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Livre.Controllers.BooksController",
+    "Method": "Delete",
+    "RelativePath": "Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
