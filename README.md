@@ -15,7 +15,6 @@ The client is responsible for interacting with the user and sending requests to 
     - `environments/`: Contains configuration settings for different environments (e.g., development, production).
     - `models`: Contains data models and interfaces used throughout the client (e.g., User, Book, etc.).
     - `routing`: Handles the navigation and routing between different pages of the application.
-    - `state`: Contains the global state management logic (e.g., Redux, NgRx, or other state management solutions).
     - `styles`: Contains global stylesheets and design variables (e.g., SCSS variables).
     - `utils`: Contains utility functions and helper methods used across different parts of the application.
     - `index.js`: The entry point of the application.
