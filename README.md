@@ -1,45 +1,35 @@
 # ARCHI_LIVRE
 
-## Overview
-This project consists of two main components: the Client and the API. Below is a detailed explanation of the structure and functionality of each component.
+## Aperçu
+Ce projet se compose de deux composants principaux : le Client et l'API. Vous trouverez ci-dessous une explication détaillée de la structure et des fonctionnalités de chaque composant.
 
 ## Client
-The client is responsible for interacting with the user and sending requests to the API. It is built using [mention the technology, e.g., React, Angular, etc.].
+Le client est responsable de l'interaction avec l'utilisateur et de l'envoi des requêtes à l'API. Il est développé en [mentionner la technologie, ex. : React, Angular, etc.].
 
 ### Structure
 - `src/`
-    - `components/`: Contains reusable UI components.
-    - `view/`: Contains the main pages of the application.
-    - `services/`: Contains services for making API calls.
-    - `assets/`: Contains static assets like images and stylesheets.
-    - `environments/`: Contains configuration settings for different environments (e.g., development, production).
-    - `models`: Contains data models and interfaces used throughout the client (e.g., User, Book, etc.).
-    - `routing`: Handles the navigation and routing between different pages of the application.
-    - `styles`: Contains global stylesheets and design variables (e.g., SCSS variables).
-    - `utils`: Contains utility functions and helper methods used across different parts of the application.
-    - `index.js`: The entry point of the application.
+    - `components/` : Contient des composants d'interface utilisateur réutilisables.
+    - `view/` : Contient les pages principales de l'application.
+    - `services/` : Contient les services permettant d'effectuer des appels à l'API.
+    - `assets/` : Contient des ressources statiques comme des images et des feuilles de styles.
+    - `environments/` : Contient les paramètres de configuration pour différents environnements (ex. : développement, production).
+    - `models/` : Contient les modèles de données et interfaces utilisés dans le client (ex. : User, Book, etc.).
+    - `routing/` : Gère la navigation et le routage entre les différentes pages de l'application.
+    - `styles/` : Contient les feuilles de styles globales et les variables de conception (ex. : variables SCSS).
+    - `utils/` : Contient des fonctions utilitaires et des méthodes d'aide utilisées dans différentes parties de l'application.
+    - `index.js` : Le point d'entrée de l'application.
 
 ## API
-The API is responsible for handling requests from the client and interacting with the database. It is built using [mention the technology, e.g., Node.js, Django, etc.].
+L'API est responsable du traitement des requêtes du client et de l'interaction avec la base de données. Elle est développée en [mentionner la technologie, ex. : Node.js, Django, etc.].
 
 ### Structure
-- `Controllers/`: Contains the logic for handling requests.
-    - `userController.cs`: Logic for user-related operations.
-    - `bookController.cs`: Logic for book-related operations.
-- `DTO/`: Contains Data Transfer Objects used to structure data between the API and client.
-    - `UserDto.cs`: Defines the structure of user data for API communication.
-    - `BookDto.cs`: Defines the structure of book data for API communication.
-- `Services/`: Contains the business logic.
-    - `UsersServices.cs`: Handles user-related operations.
-    - `BooksService.cs`: Manages book-related operations.
-    - `LoansService.cs`: Handles book loan operations.
-    - `ReservationsService.cs`: Manages reservation operations.
-- `Entities/`: Contains database models.
-    - `User.js`: User model, representing the user entity in the database.
-    - `Book.js`: Book model, representing the book entity in the database.
-- `Middlewares/`: Contains middleware functions.
-    - `AuthMiddleware.cs`: Middleware for authentication and authorization.
-- `Data/`: Contains configuration files.
-    - `DataContext.cs`: Database configuration and connection management.
-- `Program.cs`: Configuration file to bootstrap and run the API.
-
+- `Controllers/` : Contient la logique de gestion des requêtes.
+    - `userController.cs` : Gère les opérations liées aux utilisateurs.
+    - `bookController.cs` : Gère les opérations liées aux livres.
+- `DTO/` : Contient les objets de transfert de données utilisés pour structurer les échanges entre l'API et le client.
+    - `UserDto.cs` : Définit la structure des données utilisateur pour la communication API.
+    - `BookDto.cs` : Définit la structure des données de livre pour la communication API.
+- `Services/` : Contient la logique métier.
+    - `UsersServices.cs` : Gère les opérations liées aux utilisateurs.
+    - `BooksService.cs` : Gère les opérations liées aux livres.
+    - `LoansService.cs
